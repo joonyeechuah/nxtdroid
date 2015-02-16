@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.kealinghornets.nxtdroid</groupId>
-    <artifactId>mobile-android-java-basic</artifactId>
+    <artifactId>org.kealinghornets.nxtdroid</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>apk</packaging>
     <name>NXTDroid</name>
