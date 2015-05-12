@@ -9,6 +9,5 @@ public class MyThreadList {
     public MyThreadList() {
         Log.d("MyThreadList", "MyThreadListInitialized");
         new MyNXTThread();
-        new MyOtherNXTThread();
     }
 }

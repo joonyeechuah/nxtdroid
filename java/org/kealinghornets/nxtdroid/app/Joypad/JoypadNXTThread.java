@@ -54,7 +54,7 @@ public class JoypadNXTThread extends NXTThread {
                 runMotor(PORT_1, left);
                 runMotor(PORT_2, right);
             }
-            wait(getSystemSleepTime() + 10);
+            wait(50);
         }
         end();
     }
