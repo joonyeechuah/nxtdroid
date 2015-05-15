@@ -37,14 +37,20 @@ public class MyNXTThread extends NXTThread {
         log("Current speed: " + speed);
 
         
+        
         if (speed < 0) {
           log("Speed is negative");
+          if (currentReading < 50) {
+         	 runMotor(PORT_A, 100);
+          	runMotor(PORT_B, -100);
           
-          
-          
+        	}          
         }
+        
         if (speed > 0) {
           log("Speed is positive");
+          
+          
         }
         
         
