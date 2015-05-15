@@ -28,9 +28,9 @@ public class MyNXTThread extends NXTThread {
         
         currentReading = us.getDistance();
         // distance change divided by time change
-        int speed = 0;
+        double speed = 0;
         if (timeElapsed > 0) {
-        		speed = (currentReading - lastReading) / (int)timeElapsed;
+        		speed = ((float)(currentReading - lastReading)) / (int)timeElapsed;
         }
         log("***");
         log("Current distance: " + currentReading);        
@@ -56,6 +56,8 @@ public class MyNXTThread extends NXTThread {
         
         lastReading = currentReading;
         lastTime = thisTime;
+        wait(100);
       }
+      reset();
     }
 }

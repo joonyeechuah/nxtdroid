@@ -1,1 +1,1 @@
-{"builders":{"configs":{},"default":"maven"},"mixinTypes":[],"runners":{"configs":{"project://ADB":{"ram":512,"variables":{},"options":{}}},"default":"project:/ADB"},"type":"maven","attributes":{"languageVersion":["1.6"],"language":["java"]}}
+{"builders":{"configs":{},"default":"maven"},"mixinTypes":["contribution"],"runners":{"configs":{"project://ADB":{"ram":512,"variables":{},"options":{}}},"default":"project:/ADB"},"type":"maven","attributes":{"languageVersion":["1.6"],"language":["java"],"contribute_branch":["master"],"contribute_mode":["contribute"]}}
